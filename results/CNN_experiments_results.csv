@@ -1,0 +1,15 @@
+experiment,lr,optimizer,dropout,weight_decay,augmentation,test_accuracy
+CNN_lr=0.1,0.1,SGD,0.3,0.001,NaN,0.5240
+CNN_lr=0.01,0.01,SGD,0.3,0.001,NaN,0.6663
+CNN_lr=0.001,0.001,SGD,0.3,0.001,NaN,0.4705
+CNN_SGD_momentum,0.01,SGD_momentum,0.3,0.001,NaN,0.7802
+CNN_Adam,0.01,Adam,0.3,0.001,NaN,0.7598
+CNN_dropout=0.1,0.01,SGD_momentum,0.1,0.001,NaN,0.7821
+CNN_dropout=0.5,0.01,SGD_momentum,0.5,0.001,NaN,0.7792
+CNN_wd=1e-2,0.01,SGD_momentum,0.3,0.01,NaN,0.6559
+CNN_wd=1e-4,0.01,SGD_momentum,0.3,0.0001,NaN,0.7637
+CNN_augmentation_blur,0.01,SGD_momentum,0.3,0.001,gaussian_blur,0.7284
+CNN_augmentation_color_jitter,0.01,SGD_momentum,0.3,0.001,color_jitter,0.7471
+CNN_augmentation_mixup,0.01,SGD_momentum,0.3,0.001,mixup,0.7705
+CNN_augmentation_sobel,0.01,SGD_momentum,0.3,0.001,sobel,0.5957
+CNN_augmentation_rotation,0.01,SGD_momentum,0.3,0.001,rotation,0.7914
